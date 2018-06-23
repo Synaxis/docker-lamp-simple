@@ -1,0 +1,35 @@
+[23-Jun-2018 01:40:11] NOTICE: fpm is running, pid 1931
+[23-Jun-2018 01:40:11] NOTICE: ready to handle connections
+[23-Jun-2018 02:01:34] NOTICE: Terminating ...
+[23-Jun-2018 02:01:34] NOTICE: exiting, bye-bye!
+[23-Jun-2018 02:14:45] NOTICE: fpm is running, pid 1923
+[23-Jun-2018 02:14:45] NOTICE: ready to handle connections
+[23-Jun-2018 03:44:53] NOTICE: Terminating ...
+[23-Jun-2018 03:44:53] NOTICE: exiting, bye-bye!
+[23-Jun-2018 03:53:10] NOTICE: fpm is running, pid 1248
+[23-Jun-2018 03:53:10] NOTICE: ready to handle connections
+[23-Jun-2018 05:00:58] NOTICE: fpm is running, pid 1248
+[23-Jun-2018 05:00:58] NOTICE: ready to handle connections
+[23-Jun-2018 05:02:51] NOTICE: Terminating ...
+[23-Jun-2018 05:02:51] NOTICE: exiting, bye-bye!
+[23-Jun-2018 05:09:39] NOTICE: fpm is running, pid 1248
+[23-Jun-2018 05:09:39] NOTICE: ready to handle connections
+[23-Jun-2018 05:30:29] NOTICE: fpm is running, pid 1922
+[23-Jun-2018 05:30:29] NOTICE: ready to handle connections
+[23-Jun-2018 05:39:24] NOTICE: Terminating ...
+[23-Jun-2018 05:39:24] NOTICE: exiting, bye-bye!
+[23-Jun-2018 05:56:55] NOTICE: fpm is running, pid 1757
+[23-Jun-2018 05:56:55] NOTICE: ready to handle connections
+[23-Jun-2018 06:01:29] NOTICE: fpm is running, pid 1801
+[23-Jun-2018 06:01:29] NOTICE: ready to handle connections
+[23-Jun-2018 07:44:33] NOTICE: fpm is running, pid 1800
+[23-Jun-2018 07:44:33] NOTICE: ready to handle connections
+[23-Jun-2018 07:48:23] WARNING: [pool www] child 1804 said into stderr: "dig: couldn't get address for '': not found"
+[23-Jun-2018 07:50:06] NOTICE: Terminating ...
+[23-Jun-2018 07:50:06] NOTICE: exiting, bye-bye!
+[23-Jun-2018 07:50:23] NOTICE: fpm is running, pid 1801
+[23-Jun-2018 07:50:23] NOTICE: ready to handle connections
+[23-Jun-2018 08:43:39] NOTICE: Terminating ...
+[23-Jun-2018 08:43:39] NOTICE: exiting, bye-bye!
+[23-Jun-2018 08:49:30] NOTICE: fpm is running, pid 1129
+[23-Jun-2018 08:49:30] NOTICE: ready to handle connections

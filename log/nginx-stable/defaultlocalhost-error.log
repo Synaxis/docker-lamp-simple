@@ -1,0 +1,1 @@
+2018/06/23 01:48:13 [warn] 217#217: *48 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.16.238.1, server: _, request: "POST /vendor/phpmyadmin-4.8/import.php HTTP/1.1", host: "172.16.238.11"

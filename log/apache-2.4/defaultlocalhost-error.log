@@ -1,0 +1,1 @@
+[Sat Jun 23 05:40:23.153601 2018] [proxy:error] [pid 200:tid 140454527657728] [client 172.16.238.1:46614] AH00898: DNS lookup failure for: php returned by /vendor/phpmyadmin-4.8/index.php

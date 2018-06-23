@@ -1,0 +1,47 @@
+#!/bin/sh
+#
+# This script will pull all Docker images that are currently
+# bound to your devilbox git state.
+#
+# When updating the devilbox via git, do run this script once
+# in order to download all images locally.
+#
+
+###
+### Path of devilbox repository
+###
+CWD="$(cd -P -- "$(dirname -- "$0")" && pwd -P)"
+
+###
+### DNS
+###
+TAG="$( grep '^[[:space:]]*image:[[:space:]]*cytopia/bind' "${CWD}/docker-compose.yml" | sed 's/^.*://g' )"
+docker pull cytopia/bind:${TAG}
+
+###
+### PHP
+###
+TAG="$( grep '^[[:space:]]*image:.*\${PHP_SERVER' "${CWD}/docker-compose.yml" | sed 's/^.*://g' )"
+docker pull devilbox/php-fpm:5.3-work
+docker pull devilbox/php-fpm:5.4-work
+docker pull devilbox/php-fpm:5.5-work
+docker pull devilbox/php-fpm:5.6-work
+docker pull devilbox/php-fpm:7.0-work
+docker pull devilbox/php-fpm:7.1-work
+#docker pull cytopia/hhvm-latest:${TAG}
+
+###
+### HTTPD
+###
+TAG="$( grep '^[[:space:]]*image:.*\${HTTPD_SERVER' "${CWD}/docker-compose.yml" | sed 's/^.*://g' )"
+docker pull devilbox/apache-2.2:${TAG}
+docker pull devilbox/apache-2.4:${TAG}
+
+###
+### MYSQL
+###
+TAG="$( grep '^[[:space:]]*image:.*\${MYSQL_SERVER' "${CWD}/docker-compose.yml" | sed 's/^.*://g' )"
+docker pull cytopia/mysql-5.5:${TAG}
+docker pull cytopia/mysql-5.6:${TAG}
+docker pull cytopia/mysql-5.7:${TAG}
+
